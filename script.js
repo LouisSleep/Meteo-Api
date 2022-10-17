@@ -1,7 +1,7 @@
 
 let weather = {
     // API Key from openweathermap
-    apiKey: "d61514d890cb4997837232413222504",
+    apiKey: "API'S KEY",
     // Function that permit to fetch and collect all weather data
     fetchWeather: function (city) {
         fetch("https://api.weatherapi.com/v1/current.json?key=" + this.apiKey + "&q=" + city + "&aqi=no").then((response) => response.json()).then((data) => this.displayWeather(data));
