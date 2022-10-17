@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "inter";
+    src: url("Inter-VariableFont_slnt\,wght.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url(https://source.unsplash.com/1600x900/?city); */
+    /* background: white; */
+    /* backdrop-filter: blur(2px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.card {
+
+    font-family: "inter";
+    z-index: 5;
+    padding: 3em;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    /* margin: 1em; */
+    background: #5795be9c;
+    border-radius: 35px;
+    box-shadow: 2px 2px 35px 2px rgba(0, 0, 0, 0.268);
+}
+
+.card div,
+.card img,
+.card .temps,
+.card h3 {
+
+    margin: 1em 0 0 0;
+}
+
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search button {
+
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 3.25em;
+    width: 3.25em;
+    background-color: rgba(59, 59, 59, 0.7);
+    cursor: pointer;
+}
+
+.PositionSection {
+    /* padding: 0.5em; */
+    width: auto;
+    height: auto;
+    margin: 1em 1em 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.PositionSection h2 {
+
+    font-family: "inter";
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.weather button {
+    font-family: "inter";
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 1em; */
+    border-radius: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search button:hover {
+
+    background-color: rgba(104, 104, 104, 0.8);
+}
+
+.search .search-bar {
+
+    font-family: "inter";
+    color: white;
+    outline: none;
+    font-size: 120%;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(59, 59, 59, 0.7);
+    cursor: pointer;
+    width: calc(100% - 100px);
+}
+
+
+.position {
+    display: none;
+    padding: 0.5em 0 0 1em;
+}
+
+.icon {
+
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
+
+table {
+    font-family: "inter";
+    font-size: 14px;
+}
